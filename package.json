@@ -1,0 +1,17 @@
+{
+  "name": "express-server-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for running an express server with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "swagger-express-middleware": "^1.0.0-alpha.12",
+    "util": "^0.10.3"
+  }
+}
