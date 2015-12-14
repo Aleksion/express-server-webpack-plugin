@@ -1,13 +1,13 @@
 var _ = require('lodash');
-var swaggerMiddleware = require('./swaggerMiddleware');
 
 
 function Plugin(options) {
+  if(!options.app) {throw Error("No app defined!");}
   var self = this;
 
   var defaultOptions = {
     options: {},
-    app: swaggerMiddleware
+    app: {}
   };
 
   self.options = _.extend({}, defaultOptions, options);
